@@ -1,0 +1,10 @@
+Package: simNsamp
+Type: Package
+Title: Simple Simulation and Sampling
+Version: 0.1.0
+Author: 10-27-2016
+Maintainer: Mike Ackerman <mackerman@qcinc.org>
+Description: simNsamp is a simple function to simulate a population and then sample that population to determine sample sizes necessary to obtain a given coefficient of variation
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 5.0.1
