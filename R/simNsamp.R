@@ -3,10 +3,10 @@
 #' @description A simple function to simulate a population and then sample that population at varying sample sizes to
 #' determine sample sizes needed to achieve a given coefficient of variation
 #'
-#' @param groups the groups
-#' @param groupProps the group proportions
-#' @param sampleSizes the sample sizes to be evaluated
-#' @param bootstraps the desired number of bootstraps
+#' @param groups a list of the groups to be simulated
+#' @param groupProps the true proportions of each group. This list should be the same length as the groups list.
+#' @param sampleSizes the sample sizes to be evaluated. Should be at evenly spaced intervals.
+#' @param bootstraps the desired number of bootstraps within each simulation
 #' @param simulation the desired number of simulations
 #' @param alpha the desired alpha
 #'
